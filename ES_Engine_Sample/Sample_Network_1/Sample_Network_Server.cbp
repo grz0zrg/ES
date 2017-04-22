@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sample_Network_1_Server" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Bin\Sample_Network_1_Server" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-W" />
+					<Add option="-Wall" />
+					<Add option="-DES_USE_OPENGL" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="ES" />
+					<Add library="mingw32" />
+					<Add library="sdlmain" />
+					<Add library="sdl_image" />
+					<Add library="sdl_mixer" />
+					<Add library="sdl_ttf" />
+					<Add library="sdl_gfx" />
+					<Add library="sdl" />
+					<Add library="opengl32" />
+					<Add library="freetype" />
+					<Add library="glu32" />
+					<Add library="sdl_net" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="server.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="ES_Engine-Samples">
+		<Project filename="Sample_1\Sample_1_GP2X.cbp" />
+		<Project filename="Sample_2\Sample_2_GP2X.cbp" />
+		<Project filename="Sample_3\Sample_3_GP2X.cbp" />
+		<Project filename="Sample_4\Sample_4_GP2X.cbp" />
+		<Project filename="Sample_5\Sample_5_GP2X.cbp" />
+		<Project filename="Sample_Lua\Sample_Lua_GP2X.cbp" />
+		<Project filename="Sample_Lua_Advanced\Sample_Lua_Advanced_GP2X.cbp" />
+		<Project filename="Sample_Pack\Sample_Pack_GP2X.cbp" />
+		<Project filename="Sample_Starfield\Sample_Starfield_GP2X.cbp" />
+		<Project filename="Sample_Platformer_Basic\Sample_Platformer_Basic_GP2X.cbp" />
+		<Project filename="Sample_Touchscreen_GP2X\Sample_Touchscreen_GP2X.cbp" />
+		<Project filename="Sample_Physics\Sample_Physics_GP2X.cbp" />
+		<Project filename="Sample_RPG\Sample_RPG_GP2X.cbp" />
+		<Project filename="Sample_RPG_Lua\Sample_RPG_Lua_GP2X.cbp" active="1" />
+	</Workspace>
+</CodeBlocks_workspace_file>

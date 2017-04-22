@@ -1,0 +1,5 @@
+<config>
+ <option name="mode" value="sdl"/>
+ <option name="fullscreen" value="0"/>
+ <option name="bpp" value="32"/>
+</config>

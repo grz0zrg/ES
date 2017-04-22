@@ -1,0 +1,6 @@
+<config>
+ <option name="window_w" value="640"/>
+ <option name="window_h" value="480"/>
+ <option name="fullscreen" value="0"/>
+ <option name="hwsurface" value="1"/>
+</config>

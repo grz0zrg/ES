@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sample_Platformer_Basic_GP2X" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Bin\Sample_Platformer_Basic_GP2X.gpe" prefix_auto="1" extension_auto="0" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-W" />
+					<Add option="-Wall" />
+					<Add option="-DGP2X" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static -lES_GP2X -lLua -lSDL_gfx -lSDL_ttf -lfreetype -lSDL_image -ljpeg -lpng12 -lz -lSDL_mixer -lvorbisidec -lmikmod -lmad -lsmpeg -lSDL -lgcc -lm -lc -lexpat -lpthread -msoft-float" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

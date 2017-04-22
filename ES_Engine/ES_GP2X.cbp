@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ES_GP2X" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="lib\libES_GP2X" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj\Release\" />
+				<Option type="2" />
+				<Option compiler="armelfgcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-msoft-float" />
+					<Add option="-Os" />
+					<Add option="-O3" />
+					<Add option="-W" />
+					<Add option="-Wall" />
+					<Add option="-DGP2X" />
+					<Add directory="include\ES" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src\ES_Display\graphics.cpp" />
+		<Unit filename="src\ES_Display\ttf.cpp" />
+		<Unit filename="src\ES_Event\event.cpp" />
+		<Unit filename="src\ES_Event\mouse_event.cpp" />
+		<Unit filename="src\ES_Gui\gui.cpp" />
+		<Unit filename="src\ES_Gui\gui_event.cpp" />
+		<Unit filename="src\ES_Log\log.cpp" />
+		<Unit filename="src\ES_Map\esmap.cpp" />
+		<Unit filename="src\ES_Map\map.cpp" />
+		<Unit filename="src\ES_Net\mysql.cpp" />
+		<Unit filename="src\ES_Net\net.cpp" />
+		<Unit filename="src\ES_Pack\pack.cpp" />
+		<Unit filename="src\ES_Physics\physics.cpp" />
+		<Unit filename="src\ES_Resources\resources.cpp" />
+		<Unit filename="src\ES_Scripts\lua.cpp" />
+		<Unit filename="src\ES_Security\checksum.cpp" />
+		<Unit filename="src\ES_Security\md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src\ES_Sound\sound.cpp" />
+		<Unit filename="src\ES_Utils\archive.cpp" />
+		<Unit filename="src\ES_Utils\configuration.cpp" />
+		<Unit filename="src\ES_Utils\getfile.cpp" />
+		<Unit filename="src\ES_Utils\mutex.cpp" />
+		<Unit filename="src\ES_Utils\threads.cpp" />
+		<Unit filename="src\ES_Utils\timer.cpp" />
+		<Unit filename="src\ES_Utils\utils.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

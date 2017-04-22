@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="ES_Engine-Samples">
+		<Project filename="Sample_1\Sample_1.cbp" />
+		<Project filename="Sample_2\Sample_2.cbp" />
+		<Project filename="Sample_3\Sample_3.cbp" />
+		<Project filename="Sample_4\Sample_4.cbp" />
+		<Project filename="Sample_5\Sample_5.cbp" />
+		<Project filename="Sample_Lua\Sample_Lua.cbp" />
+		<Project filename="Sample_Lua_Advanced\Sample_Lua_Advanced.cbp" />
+		<Project filename="Sample_Network_1\Sample_Network_Client.cbp" />
+		<Project filename="Sample_Network_1\Sample_Network_Server.cbp" />
+		<Project filename="Sample_Pack\Sample_Pack.cbp" />
+		<Project filename="Sample_Platformer_Basic\Sample_Platformer_Basic.cbp" active="1" />
+		<Project filename="Sample_Pong\ES_Pong.cbp" />
+		<Project filename="Sample_RPG\Sample_RPG.cbp" />
+		<Project filename="Sample_RPG_Lua\Sample_RPG_Lua.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
