@@ -1,7 +1,7 @@
 # ES
 ES Engine is an old (2006 - 2008) open source 2D game engine done in C++. It is cross-platform and can use SDL 1.2 or OpenGL 2 for the rendering.
 
-[alt text](http://garzul.tonsite.biz/ES/images/platformer_sample.png "Platformer sample")
+![Platformer example](http://garzul.tonsite.biz/ES/images/platformer_sample.png)
 
 This engine was ported and was successfully used on the ARM [GP2X](https://en.wikipedia.org/wiki/GP2X), a Linux-based handheld video game console and portable media player developed by South Korean company GamePark Holdings, some app. such as [FPaint](http://dl.openhandhelds.org/cgi-bin/gp2x.cgi?0,0,0,0,4,2582) were made with this engine.
 
@@ -40,6 +40,6 @@ This engine was bundled with a RPG map editor with tile-based collision system, 
 
 This is one of my first "big" library project. :)
 
-[alt text](http://www.garzul.tonsite.biz/ES/images/estelante_es_engine.png "Estelante")
+![Estelante](http://www.garzul.tonsite.biz/ES/images/estelante_es_engine.png)
 
-[alt text](http://garzul.tonsite.biz/ES/images/editor.png "2D RPG Map editor")
+![2D RPG Map editor](http://garzul.tonsite.biz/ES/images/editor.png)
